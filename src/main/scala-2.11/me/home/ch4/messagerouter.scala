@@ -17,6 +17,7 @@ object MessageRouterDriver extends CompletableApp(20) {
 
   println("MessageRouter: is completed")
   println("")
+  println("")
 }
 
 class AlternatingRouter(processor1: ActorRef, processor2: ActorRef) extends Actor {
